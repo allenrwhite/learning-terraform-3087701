@@ -23,7 +23,3 @@ resource "aws_instance" "blog" {
   }
 }
 
-resource "aws_s3_bucket" "tf-course" {
-  bucket = "awhite-terraform-6033"
-  acl = "private"
-}
